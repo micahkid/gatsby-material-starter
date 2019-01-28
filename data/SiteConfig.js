@@ -29,7 +29,7 @@ const config = {
       iconClassName: "fa fa-github"
     },
     {
-      label: "Twitter",
+      label: "Instagram",
       url: "https://instagram.com/micahyapledesign",
       iconClassName: "fa fa-instagram"
     },
