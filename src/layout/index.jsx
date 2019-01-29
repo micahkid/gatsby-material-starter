@@ -5,6 +5,7 @@ import Navigation from "../components/Navigation";
 import config from "../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
+import largeFavicon from "../../img/favicon.png";
 
 
 export default class MainLayout extends React.Component {
@@ -15,6 +16,10 @@ export default class MainLayout extends React.Component {
         <div>
           <Helmet>
             <meta name="description" content={config.siteDescription} />
+            link={[
+        { rel: 'icon', type: 'image/png', href: `${largeFavicon}` },
+       
+      ]}
           </Helmet>
           {children}
         </div>
