@@ -5,6 +5,9 @@ import Navigation from "../components/Navigation";
 import config from "../../data/SiteConfig";
 import "./index.scss";
 import "./global.scss";
+import favicon from '../src/favicon.png';
+
+
 
 export default class MainLayout extends React.Component {
   render() {
@@ -14,6 +17,9 @@ export default class MainLayout extends React.Component {
         <div>
           <Helmet>
             <meta name="description" content={config.siteDescription} />
+            link={[
+      { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
+  ]}
           </Helmet>
           {children}
         </div>
