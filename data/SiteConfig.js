@@ -25,7 +25,7 @@ const config = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://micahkid.github.io",
+      url: "https://github.com/micahkid",
       iconClassName: "fa fa-github"
     },
     {
