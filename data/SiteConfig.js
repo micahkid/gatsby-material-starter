@@ -12,8 +12,8 @@ const config = {
   siteGATrackingID: "UA-133374980-1", // Tracking code ID for google analytics.
   disqusShortname: "", // Disqus shortname.
   postDefaultCategoryID: "Marketing", // Default category for posts.
-  dateFromFormat: "MM-DD-YYYY", // Date format used in the frontmatter.
-  dateFormat: "MM/DD/YYYY", // Date format for display.
+  dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
+  dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Micah Kid", // Username to display in the author segment.
   userEmail: "im@micahyaple.com", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
