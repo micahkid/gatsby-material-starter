@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   siteTitle: "Micah Yaple Design", // Site title.
   siteTitleShort: "MYD", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Micah Yaple Design", // Alternative site title for SEO.
